@@ -1,4 +1,4 @@
-# 🔧 Guida all'Installazione: Sage Attention + Triton per ComfyUI
+# 🔧 Guida all'Installazione: SageAttention + Triton per ComfyUI
 
 ## ✅ 1. Installa CUDA Toolkit e Driver GPU
 

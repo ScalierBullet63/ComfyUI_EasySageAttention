@@ -1,6 +1,6 @@
 # ComfyUI_EasySageAttentionGuide
 
-A simple and clear guide to installing **Sage Attention** and **Triton** for seamless use with **ComfyUI**.
+A simple and clear guide to installing **SageAttention** and **Triton** for seamless use with **ComfyUI**.
 
 This repository is intended for users who want to quickly get started with advanced attention mechanisms in ComfyUI, without dealing with complex dependencies or unclear documentation.
 
@@ -9,13 +9,13 @@ This repository is intended for users who want to quickly get started with advan
 - [🇮🇹 Guida in Italiano](./guide_it.md)
 - [🇬🇧 English Guide](./guide_en.md)
 
-## 📚 Why Use Sage Attention?
+## 📚 Why Use SageAttention?
 
 Sage Attention is an experimental attention mechanism designed to improve performance and quality during inference. It may offer benefits in memory efficiency and speed, especially when combined with Triton kernels.
 
 ## 🧠 About Triton
 
-Triton is an open-source language and compiler for writing highly efficient GPU code. It is required to compile and run Sage Attention properly.
+Triton is an open-source language and compiler for writing highly efficient GPU code. It is required to compile and run SageAttention properly.
 
 ## ❗ Troubleshooting
 
