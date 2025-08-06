@@ -26,9 +26,17 @@ Apri il terminale `cmd` nella cartella `ComfyUI_windows_portable` ed esegui ques
 
 ```bash
 .\python_embeded\python.exe -s -m pip install "accelerate >= 1.1.1"
+```
+```bash
 .\python_embeded\python.exe -s -m pip install "diffusers >= 0.31.0"
+```
+```bash
 .\python_embeded\python.exe -s -m pip install "transformers >= 4.39.3"
+```
+```bash
 .\python_embeded\python.exe -s -m pip install ninja
+```
+```bash
 .\python_embeded\python.exe -s -m pip install buildtools
 ```
 
