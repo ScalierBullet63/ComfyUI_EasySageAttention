@@ -4,6 +4,11 @@ A simple and clear guide to installing **Sage Attention** and **Triton** for sea
 
 This repository is intended for users who want to quickly get started with advanced attention mechanisms in ComfyUI, without dealing with complex dependencies or unclear documentation.
 
+📖 **Available Guides:**
+
+- [🇮🇹 Guida in Italiano](./guide_it.md)
+- [🇬🇧 English Guide](./guide_en.md)
+
 ## 📚 Why Use Sage Attention?
 
 Sage Attention is an experimental attention mechanism designed to improve performance and quality during inference. It may offer benefits in memory efficiency and speed, especially when combined with Triton kernels.
