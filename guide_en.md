@@ -1,10 +1,12 @@
 # 🔧 Installation Guide: Sage Attention + Triton for ComfyUI
 
-
 ## ✅ 1. Install CUDA Toolkit and GPU Drivers
 
-- Download the latest NVIDIA CUDA Toolkit:  
-  [https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads)
+- Download the latest NVIDIA CUDA Toolkit:
+
+  > ⚠️ Note: NVIDIA CUDA Toolkit version 13.0 was recently released but does not currently appear to be compatible with PyTorch and SageAttention. Therefore, it is recommended to install NVIDIA CUDA Toolkit 12.9 from the following link:
+
+  [https://developer.nvidia.com/cuda-12-9-0-download-archive](https://developer.nvidia.com/cuda-12-9-0-download-archive)
 
 - After installation, verify CUDA version with:
 
@@ -12,7 +14,7 @@
 nvcc --version
 ```
 
-> Recommended: `>= cuda_12.8.0_571.96`
+> Recommended: `>= cuda_12.9.0_571.96`
 
 - Restart your PC after installation.
 
@@ -20,14 +22,14 @@ nvcc --version
 
 ## ✅ 2. Install Required Python Packages
 
-Open `cmd` inside `ComfyUI_windows_portable\update` and run these 5 commands one at a time:
+Open `cmd` inside `ComfyUI_windows_portable` and run these 5 commands one at a time:
 
 ```bash
-..\python_embeded\python.exe -s -m pip install "accelerate >= 1.1.1"
-..\python_embeded\python.exe -s -m pip install "diffusers >= 0.31.0"
-..\python_embeded\python.exe -s -m pip install "transformers >= 4.39.3"
-..\python_embeded\python.exe -s -m pip install ninja
-..\python_embeded\python.exe -s -m pip install buildtools
+.\python_embeded\python.exe -s -m pip install "accelerate >= 1.1.1"
+.\python_embeded\python.exe -s -m pip install "diffusers >= 0.31.0"
+.\python_embeded\python.exe -s -m pip install "transformers >= 4.39.3"
+.\python_embeded\python.exe -s -m pip install ninja
+.\python_embeded\python.exe -s -m pip install buildtools
 ```
 
 ---
@@ -35,6 +37,12 @@ Open `cmd` inside `ComfyUI_windows_portable\update` and run these 5 commands one
 ## ✅ 3. Install PyTorch Nightly with CUDA
 
 From `ComfyUI_windows_portable` folder:
+
+```bash
+.\python_embeded\python.exe -m pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu129 --upgrade
+```
+
+> ⚠️ Note: you can also install the nightly version of PyTorch using the following command, which includes the latest features and updates. However, this version may cause compilation issues with SageAttention, so use it at your own risk:
 
 ```bash
 .\python_embeded\python.exe -m pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129 --upgrade
@@ -85,3 +93,4 @@ Then from `ComfyUI_windows_portable\SageAttention`:
 
 ```bash
 ..\python_embeded\python.exe -m pip install .
+```
