@@ -1,4 +1,4 @@
-# ComfyUI_EasySageAttentionGuide
+# ComfyUI_EasySageAttention
 
 A simple and clear guide to installing **SageAttention** and **Triton** for seamless use with **ComfyUI**.
 
