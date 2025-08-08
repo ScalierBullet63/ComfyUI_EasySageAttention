@@ -93,27 +93,29 @@ Link: [https://visualstudio.microsoft.com/visual-cpp-build-tools/](https://visua
 
 ## ✅ 6. Clona e installa SageAttention
 
-Dalla cartella `ComfyUI_windows_portable`, esegui:
+- SE hai installato Vistual studio Build Tools 2022
 
-```bash
-git clone https://github.com/thu-ml/SageAttention
-```
+  Dalla cartella `ComfyUI_windows_portable`, esegui:
 
-Poi, se hai installato Vistual studio Build Tools 2022, dalla cartella `ComfyUI_windows_portable\SageAttention` esegui:
+  ```bash
+  git clone https://github.com/thu-ml/SageAttention
+  ```
 
-```bash
-..\python_embeded\python.exe -m pip install .
-```
-⚠️ Se nel punto 5 hai scaricato il file whl, puoi inserirlo direttamente all'interno della cartella ComfyUI_windows_portable. Apri il terminale all'interno di quella cartella e utilizza questo comando per installare il file
+  Poi dalla cartella `ComfyUI_windows_portable\SageAttention` esegui:
 
-.\python_embeded\python.exe -m pip install "nome del file whl"
+  ```bash
+  ..\python_embeded\python.exe -m pip install .
+  ```
 
-Esempio:
+- SE nel punto 5 hai scaricato il file whl, puoi inserirlo direttamente all'interno della cartella ComfyUI_windows_portable. Apri il terminale all'interno di quella cartella e utilizza questo comando per installare il file
 
-```bash
-.\python_embeded\python.exe -m pip install sageattention-2.2.0-cp312-cp312-win_amd64.whl
+  .\python_embeded\python.exe -m pip install "nome del file whl"
 
-```
+  Esempio:
+
+  ```bash
+  .\python_embeded\python.exe -m pip install sageattention-2.2.0-cp312-cp312-win_amd64.whl
+  ```
 
 ## 🎉🎊 Installazione completata!
 
