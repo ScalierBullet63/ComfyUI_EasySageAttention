@@ -87,6 +87,8 @@ Link: [https://visualstudio.microsoft.com/visual-cpp-build-tools/](https://visua
 
 > Full installation is optional, but recommended.
 
+⚠️ If you are unable to install Visual Studio Build Tools 2022 (for example, due to incompatibility with older versions of Windows), you can download the pre-compiled whl file included in the release.
+
 ---
 
 ## ✅ 6. Clone and Install SageAttention
@@ -97,8 +99,22 @@ From the `ComfyUI_windows_portable` folder:
 git clone https://github.com/thu-ml/SageAttention
 ```
 
-Then from `ComfyUI_windows_portable\SageAttention`:
+Then, if you have installed Visual Studio Build Tools 2022, from `ComfyUI_windows_portable\SageAttention` run:
 
 ```bash
 ..\python_embeded\python.exe -m pip install .
 ```
+
+⚠️ If you downloaded the whl file in step 5, you can place it directly inside the ComfyUI_windows_portable folder. Open the terminal inside that folder and use this command to install the file
+
+.\python_embeded\python.exe -m pip install “name of whl file”
+
+Example:
+
+```bash
+.\python_embeded\python.exe -m pip install sageattention-2.2.0-cp312-cp312-win_amd64.whl
+```
+
+## 🎉🎊 Installation completed!
+
+To use Sage Attention, add the --use-sage-attention flag to the startup .bat file or add the Patch Sage Attention KJ node to your workflow!
