@@ -85,15 +85,15 @@ Installa il workload **Desktop development with C++**.
 
 Link: [https://visualstudio.microsoft.com/visual-cpp-build-tools/](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
 
-> L'installazione completa è facoltativa, ma consigliata.
+> Si consiglia di fare un'installazione completa dal momento che Triton e SageAttention richiedono degli eseguibili compresi nei Visual Studio Build Tools 2022.
 
- ⚠️ Nel caso in cui non fosse possibile installare Vistual studio Build Tools 2022 (per esempio per via dell'incompatibilità con le vecchie versioni di Windows), puoi scaricare il file whl già compilato presente nelle release.
+ ⚠️ Per installare Visual Studio Build Tools 2022 è necessario avere almeno Windows 10 versione 1909 oppure Windows 11 a partire dalla 21H2.
 
 ---
 
 ## ✅ 6. Clona e installa SageAttention
 
-- SE hai installato Vistual studio Build Tools 2022
+- SE vuoi compilare SageAttention per avere la massima compatibilità
 
   Dalla cartella `ComfyUI_windows_portable`, esegui:
 
@@ -107,7 +107,7 @@ Link: [https://visualstudio.microsoft.com/visual-cpp-build-tools/](https://visua
   ..\python_embeded\python.exe -m pip install .
   ```
 
-- SE nel punto 5 hai scaricato il file whl, puoi inserirlo direttamente all'interno della cartella ComfyUI_windows_portable. Apri il terminale all'interno di quella cartella e utilizza questo comando per installare il file
+- SE preferisci evitare di compilare SageAttention puoi scaricare il file whl nelle release e inserirlo direttamente all'interno della cartella ComfyUI_windows_portable. Apri il terminale all'interno di quella cartella e utilizza questo comando per installare il file
 
   .\python_embeded\python.exe -m pip install "nome del file whl"
 
