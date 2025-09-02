@@ -2,13 +2,13 @@
 
 ## 📚 Sommario
 
-- [1. Installa i driver GPU e NVIDIA CUDA Toolkit](#1-installa-i-driver-gpu-e-nvidia-cuda-toolkit)
-- [2. Installa Visual Studio Build Tools 2022](#2-installa-visual-studio-build-tools-2022)
-- [3. Installa i pacchetti Python richiesti](#3-installa-i-pacchetti-python-richiesti)
-- [4. Installa PyTorch con supporto CUDA](#4-installa-pytorch-con-supporto-cuda)
-- [5. Installa Triton](#5-installa-triton)
-- [6. Clona e installa SageAttention](#6-clona-e-installa-sageattention)
-- [7. Installazione completata!](#installazione-completata)
+- [1. Installa i driver GPU e NVIDIA CUDA Toolkit](#-1-installa-i-driver-gpu-e-nvidia-cuda-toolkit)
+- [2. Installa Visual Studio Build Tools 2022](#-2-installa-visual-studio-build-tools-2022)
+- [3. Installa i pacchetti Python richiesti](#-3-installa-i-pacchetti-python-richiesti)
+- [4. Installa PyTorch con supporto CUDA](#-4-installa-pytorch-con-supporto-cuda)
+- [5. Installa Triton](#-5-installa-triton)
+- [6. Clona e installa SageAttention](#-6-clona-e-installa-sageattention)
+- [7. Installazione completata!](#-installazione-completata)
 
 ---
 
