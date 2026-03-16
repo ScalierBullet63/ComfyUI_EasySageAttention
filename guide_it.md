@@ -3,7 +3,7 @@
 ## 📚 Sommario
 
 - [1. Installa i driver GPU e NVIDIA CUDA Toolkit](#-1-installa-i-driver-gpu-e-nvidia-cuda-toolkit)
-- [2. Installa Visual Studio Build Tools 2022](#-2-installa-visual-studio-build-tools-2022)
+- [2. Installa Visual Studio Build Tools 2026](#-2-installa-visual-studio-build-tools-2026)
 - [3. Installa i pacchetti Python richiesti](#-3-installa-i-pacchetti-python-richiesti)
 - [4. Installa PyTorch con supporto CUDA](#-4-installa-pytorch-con-supporto-cuda)
 - [5. Installa Triton](#-5-installa-triton)
@@ -34,7 +34,7 @@
 
 ---
 
-## ✅ 2. Installa Visual Studio Build Tools 2022
+## ✅ 2. Installa Visual Studio Build Tools 2026
 
 Installa il workload **Desktop development with C++**.
 
@@ -42,7 +42,7 @@ Link: [https://visualstudio.microsoft.com/visual-cpp-build-tools/](https://visua
 
 > L'installazione completa è necessaria solo per la compilazione.
 
-⚠️ Per installare Visual Studio Build Tools 2022 è necessario avere almeno Windows 10 versione 1909 oppure Windows 11 a partire dalla 21H2.
+⚠️ Per installare Visual Studio Build Tools 2026 è necessario avere almeno Windows 10 versione 20H1 oppure Windows 11 a partire dalla 21H2.
 
 ---
 
