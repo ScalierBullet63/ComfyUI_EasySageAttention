@@ -70,7 +70,7 @@ Open `CMD` inside `ComfyUI_windows_portable` and run these 5 commands one at a t
 
 ---
 
-## ✅ 4. Install PyTorch Nightly with CUDA
+## ✅ 4. Install PyTorch with CUDA support
 
 From `ComfyUI_windows_portable` folder:
 
